@@ -1,0 +1,17 @@
+Polymorphism: 
+			 an object oriented design principle that means many forms.
+			 uses overloading and overriding.
+			 overloading consists of a method in the same class with the same name but chhangining
+			 the number and parameters
+			 overriiding refers ti ubgerutubg a netgid abd tgeb cgabgubg its implementation
+
+Use document: How to prepare for QC
+
+QC focuses on topics of the previous week
+
+
+Introduction to .NET
+--------------------
+- Free/open source dev platform for apps
+- A collection of languages and libraries that can work together to build many things
+- 

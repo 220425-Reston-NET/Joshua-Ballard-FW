@@ -36,6 +36,8 @@ touch FirstShell.sh
 $ will tell computer to look for a variable and will reference the variable
 
 -ge = > greater than "
+!= does not equal
+ -m
 
 Basic Programming
 -----------------
@@ -74,8 +76,25 @@ Repository:
  * This is where your file/code gets stored
  * It will lso store all the history a file went through and all its changes
 
+Git CLI Commands
+-----------------
+Git init				- creates empty local git repository
+Git status				- check which files are in or not in staging
+Git add(.)				- will add files; the . will add all files
+Git commit -m "message" - will commit the added files and pair with message
+Git branch 				- will create, delte, or rename branches
+
+
+
+git branch -M main
+
+website to practice Git:
+https://learngitbranching.js.org/
+
+
 https://github.com/organizations/220425-Reston-NET/repositories/new
 
+first 4/26
 
 git init
 git add README.md
@@ -83,3 +102,24 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/220425-Reston-NET/Joshua-Ballard-FW.git
 git push -u origin main
+
+
+git config --global user.userName
+git config --global user.Email
+
+git add .
+git commit -m "https://github.com/220425-Reston-NET/Joshua-Ballard-FW/projects"
+
+git push -u origin main
+
+git status
+
+
+cd .. (gets out of main)
+git branch -M main (gets in main)
+
+git clone "url" to get the file clone
+
+how to add to repository:
+git commit -m 'Added Feature'
+git push
