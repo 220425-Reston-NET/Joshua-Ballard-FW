@@ -1,0 +1,85 @@
+Command Line Interface (CLI)
+c:\Users\Colds - work\Documents>cd Revature
+
+c:\Users\colds - filname>dir
+
+Arguments:
+----------
+- They are essentially ways to add a specific configuration you want your commands to do
+- They are denote with a '-' after the command
+
+
+Commands:
+---------
+cd - change directory
+touch - command to create a file 
+        ex: touch HelloWorld.txt
+		
+nano - changes into a limited a file editor 
+	   ex: nano \HelloWorld.txt
+	       nano \FirstShell.sh
+		   
+	   cntrl-x   to exit
+	   
+Mikdir - makes directory
+
+
+Shell scripting:
+----------------
+- It is a way to execute multiple commands to do something
+  - Combining all those CLI commands to do something in the computer
+
+touch FirstShell.sh
+
+
+# to put comment lines in shell scripting
+$ will tell computer to look for a variable and will reference the variable
+
+-ge = > greater than "
+
+Basic Programming
+-----------------
+
+Variable : They are a way for us to store information that was can reference to.
+
+Control Flow: They are a way to control what commands should go first or what commands should be repeated
+			  or what commands can only execute if some condtion has been met
+			  
+If Statement: Used to run certain lines of code if a condition is met
+
+Else if statement: run another condition if the first one failed
+else statement: run if all conditions failed
+
+Loops statements: run the condtion multiple times
+
+
+
+Git Introduction
+----------------
+* It is Version Control System
+  - Allows you to manage the changes/dev made in proects
+  - More specifically is Distributed Version COntrol (DVCS)
+
+* It records any changes made to a project and maintain its history that contains the statement
+  of the project at a certain times
+
+Git vs Github:
+ * Git is the local repository and this is how you can add new changes to the repository 
+   - Push(upload) the code into the cloud.
+  
+ * Github is the remote repository that stores your code online so it is available to everyone
+ 
+
+Repository:
+ * This is where your file/code gets stored
+ * It will lso store all the history a file went through and all its changes
+
+https://github.com/organizations/220425-Reston-NET/repositories/new
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/220425-Reston-NET/Joshua-Ballard-FW.git
+git push -u origin main
