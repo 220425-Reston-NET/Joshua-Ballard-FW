@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerModel", "CustomerModel\CustomerModel.csproj", "{4D0059CC-140F-4DB0-A884-AF99BD4BC24D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreUI", "StoreUI\StoreUI.csproj", "{0155C05B-A7B3-46F9-98DE-C51456E73A2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDL", "CustomerDL\CustomerDL.csproj", "{C6ED80C0-0D53-413D-91EE-4EA3C3DE0D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0059CC-140F-4DB0-A884-AF99BD4BC24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0059CC-140F-4DB0-A884-AF99BD4BC24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0059CC-140F-4DB0-A884-AF99BD4BC24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0059CC-140F-4DB0-A884-AF99BD4BC24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0155C05B-A7B3-46F9-98DE-C51456E73A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0155C05B-A7B3-46F9-98DE-C51456E73A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0155C05B-A7B3-46F9-98DE-C51456E73A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0155C05B-A7B3-46F9-98DE-C51456E73A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6ED80C0-0D53-413D-91EE-4EA3C3DE0D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6ED80C0-0D53-413D-91EE-4EA3C3DE0D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6ED80C0-0D53-413D-91EE-4EA3C3DE0D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6ED80C0-0D53-413D-91EE-4EA3C3DE0D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
